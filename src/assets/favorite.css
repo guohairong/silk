@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "icon";
+  src: url(../../src/font/iconfont.ttf); }
+
+a, span {
+  font-family: "icon"; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  background: #e6e6e6; }
+
+body {
+  font-size: 0.16rem;
+  background: #F2F2F2; }
+
+.favorite-wrap {
+  width: 100%;
+  background: #F2F2F2; }
+  .favorite-wrap .favorite-header {
+    width: 100%;
+    height: 0.44rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #5b248a; }
+    .favorite-wrap .favorite-header .favorite-title {
+      color: #fff;
+      font-size: 0.15rem;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      text-align: center;
+      line-height: 0.44rem; }
+    .favorite-wrap .favorite-header .favorite-left {
+      float: left;
+      line-height: 0.44rem;
+      margin-left: 0.1rem; 
+      z-index: 999;
+      position: relative;}
+      .favorite-wrap .favorite-header .favorite-left span {
+        color: #fff;
+        font-size: 0.19rem; 
+        z-index: 999;
+        position: relative;}
+    .favorite-wrap .favorite-header .favorite-right {
+      float: right;
+      margin-left: -100%;
+      line-height: 0.44rem;
+      margin-right: 0.1rem; }
+      .favorite-wrap .favorite-header .favorite-right span {
+        color: #fff;
+        font-size: 0.22rem; }
+        .favorite-wrap .favorite-header .favorite-right span i {
+          font-size: .12rem;
+          padding-right: .1rem; }
+  .favorite-wrap .favorite-contain {
+    width: 100%;
+    padding-top: .45rem; }
+    .favorite-wrap .favorite-contain .favorite-tab {
+      width: 100%;
+      height: .44rem;
+      display: -webkit-box;
+      background: #fff; }
+      .favorite-wrap .favorite-contain .favorite-tab p {
+        width: 40%;
+        text-align: center;
+        line-height: .44rem;
+        margin-left: 7%; }
+      .favorite-wrap .favorite-contain .favorite-tab .border-bottom {
+        border-bottom: 1px solid #FsF8F0D;
+        color: #FF8F0D; }
+    .favorite-wrap .favorite-contain .favorite-cont {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none; }
+      .favorite-wrap .favorite-contain .favorite-cont p {
+        line-height: .3rem;
+        padding: 0 .2rem; }
+        .favorite-wrap .favorite-contain .favorite-cont p:nth-child(2) {
+          border: 1px solid #E8470C;
+          color: #E8470C; }
+    .favorite-wrap .favorite-contain .favorite-main {
+      width: 100%; }
+      .favorite-wrap .favorite-contain .favorite-main dl {
+        width: 100%;
+        display: -webkit-flex;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+        margin-top: 5px; }
+      .favorite-wrap .favorite-contain .favorite-main dl dt {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px; }
+      .favorite-wrap .favorite-contain .favorite-main dl dt img {
+        display: inline-block;
+        width: 100px;
+        height: 100px; }
+      .favorite-wrap .favorite-contain .favorite-main dl dd {
+        width: 100%;
+        font-size: 18px; }
+      .favorite-wrap .favorite-contain .favorite-main dl dd p {
+        width: 100%;
+        margin-top: 15px;
+        position: relative; }
+      .favorite-wrap .favorite-contain .favorite-main dl dd p span {
+        width: 80%;
+        display: inline-block; }
+      .favorite-wrap .favorite-contain .favorite-main dl dd p em {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border: 1px solid red;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 15px;
+        color: red; }
+      .favorite-wrap .favorite-contain .favorite-main dl dd p b {
+        float: left;
+        color: red; }
+      .favorite-wrap .favorite-contain .favorite-main dl dd p i {
+        font-style: normal;
+        float: right;
+        margin-right: 30px; }
+  .favorite-wrap .favorite-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: .24rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: .1rem;
+    background: #E6E6E6;
+    font-size: .12rem; }

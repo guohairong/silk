@@ -1,0 +1,60 @@
+.classify-header {
+  width: 100%;
+  height: .44rem;
+  background: #5b248a;
+  line-height: .44rem; }
+  .classify-header .classify-back {
+    color: #fff;
+    font-size: .22rem;
+    margin-left: .1rem; 
+    display: block; }
+  .classify-header h3 {
+    position: absolute;
+    left: 40%;
+    top: 0;
+    color: #fff;
+    font-size: .2rem; }
+
+.classify-cont {
+  width: 100%;
+  background: #f2f2f2;
+  max-height: 4.5rem;
+  overflow: hidden; }
+  .classify-cont .classify-uls {
+    width: 35%;
+    border: 1px solid #dddddd;
+    float: left;
+    box-sizing: border-box; }
+    .classify-cont .classify-uls li {
+      text-align: center;
+      line-height: .5rem;
+      border-bottom: 1px solid #dddddd;
+      font-size: .16rem; }
+      .classify-cont .classify-uls li:last-child {
+        border-bottom: none; }
+    .classify-cont .classify-uls .on {
+      color: #5b248a; }
+  .classify-cont .classify-ols {
+    width: 65%;
+    float: right;
+    background: #fff; }
+    .classify-cont .classify-ols .classify-ol li {
+      text-align: center;
+      line-height: .4rem;
+      font-size: .14rem;
+      border-bottom: 1px solid #e5e5e5; }
+      .classify-cont .classify-ols .classify-ol li:last-child {
+        border-bottom: none; }
+
+.classify-footer {
+  width: 100%;
+  height: .44rem;
+  background: #5b248a;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center; }
+  .classify-footer span {
+    font-size: .2rem;
+    line-height: .44rem;
+    color: #fff; }

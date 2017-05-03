@@ -1,0 +1,362 @@
+
+/* line 9, index.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 14, index.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 100px; }
+
+/* line 19, index.scss */
+body {
+  font-size: 0.16rem;
+  background: #fff; }
+
+/* line 23, index.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+  /*缁ф壙*/ }
+
+/* line 26, index.scss */
+.home_wrap {
+  width: 100%;
+  height: 100%; }
+  /* line 29, index.scss */
+  .home_wrap .home_header {
+    width: 100%;
+    height: 0.44rem;
+    background: #5b248a;
+    position: relative; }
+    /* line 35, index.scss */
+    .home_wrap .home_header .register_header_l {
+      position: absolute;
+      z-index: 6;
+      left: 0.04rem;
+      color: #fff;
+      line-height: 0.44rem; }
+      /* line 42, index.scss */
+      .home_wrap .home_header .register_header_l i {
+        font-size: .22rem; }
+    /* line 46, index.scss */
+    .home_wrap .home_header .register_header_tlt {
+      font-weight: 100;
+      position: absolute;
+      text-align: center;
+      line-height: 0.44rem;
+      font-size: .18rem;
+      top: 0;
+      left: 0;
+      right: 0;
+      color: #fff; }
+    /* line 57, index.scss */
+    .home_wrap .home_header .register_header_r {
+      line-height: 0.44rem;
+      position: absolute;
+      z-index: 8;
+      right: 0.04rem;
+      margin-right: 3%; }
+      /* line 63, index.scss */
+      .home_wrap .home_header .register_header_r i {
+        color: #fff;
+        font-size: .22rem; }
+
+/* line 79, index.scss */
+.home_header {
+  width: 100%;
+  height: 0.44rem;
+  background: #5b248a;
+  position: relative; }
+  /* line 85, index.scss */
+  .home_header .register_header_l {
+    position: absolute;
+    z-index: 6;
+    left: 0.04rem;
+    color: #fff;
+    line-height: 0.44rem; }
+    /* line 92, index.scss */
+    .home_header .register_header_l i {
+      font-size: .22rem; }
+  /* line 96, index.scss */
+  .home_header .register_header_tlt {
+    font-weight: 100;
+    position: absolute;
+    text-align: center;
+    line-height: 0.44rem;
+    font-size: .18rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff; }
+  /* line 107, index.scss */
+  .home_header .register_header_r {
+    line-height: 0.44rem;
+    position: absolute;
+    z-index: 8;
+    right: 0.04rem;
+    margin-right: 3%; }
+    /* line 113, index.scss */
+    .home_header .register_header_r i {
+      color: #fff;
+      font-size: .22rem; }
+
+/* line 126, index.scss */
+.Use_mai .register_div {
+  width: 100%;
+  height: 0.88rem;
+  margin-top: 0.22rem;
+  border-bottom: 1px solid #e0e0e0;
+  background: #ffffff;
+  position: relative; }
+  /* line 133, index.scss */
+  .Use_mai .register_div .Use_mai_err {
+    position: absolute;
+    top: -0.2rem;
+    left: 0px;
+    width: 100%;
+    height: 0.24rem;
+    background: #fffbf3;
+    display: none; }
+    /* line 141, index.scss */
+    .Use_mai .register_div .Use_mai_err i {
+      float: left;
+      padding: 0.05rem 0.1rem; }
+    /* line 145, index.scss */
+    .Use_mai .register_div .Use_mai_err p {
+      float: left;
+      padding: 0.05rem 0.05rem;
+      font-size: 0.11rem; }
+  /* line 151, index.scss */
+  .Use_mai .register_div .Use_mai_cher {
+    width: 95%;
+    height: 0.88rem;
+    margin: 0 auto; }
+    /* line 156, index.scss */
+    .Use_mai .register_div .Use_mai_cher .Use_mai_phone {
+      width: 100%;
+      height: 0.45rem;
+      line-height: 0.45rem; }
+      /* line 160, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_phone label {
+        font-size: 0.14rem;
+        color: #737373;
+        font-weight: bold;
+        float: left; }
+      /* line 166, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_phone .Use_phone_txt {
+        display: inline-block;
+        margin: 0.11rem 0.08rem;
+        border: none;
+        outline: none;
+        font-size: 0.14rem;
+        color: #737373;
+        background: none;
+        float: left;
+        height: 0.22rem;
+        line-height: 0.22rem; }
+    /* line 179, index.scss */
+    .Use_mai .register_div .Use_mai_cher .Use_mai_phone {
+      width: 100%;
+      height: 0.45rem;
+      line-height: 0.45rem; }
+      /* line 183, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_phone label {
+        font-size: 0.14rem;
+        color: #737373;
+        font-weight: bold;
+        float: left; }
+      /* line 189, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_phone .Use_phone_txt {
+        display: inline-block;
+        margin: 0.11rem 0.08rem;
+        border: none;
+        outline: none;
+        font-size: 0.14rem;
+        color: #737373;
+        background: none;
+        float: left;
+        height: 0.22rem;
+        line-height: 0.22rem; }
+    /* line 202, index.scss */
+    .Use_mai .register_div .Use_mai_cher .Use_mai_phone {
+      width: 100%;
+      height: 0.45rem;
+      line-height: 0.45rem; }
+      /* line 206, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_phone label {
+        font-size: 0.14rem;
+        color: #737373;
+        font-weight: bold;
+        float: left; }
+      /* line 212, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_phone .home_phone_txt {
+        display: inline-block;
+        margin: 0.11rem 0.08rem;
+        border: none;
+        outline: none;
+        font-size: 0.14rem;
+        color: #737373;
+        background: none;
+        float: left;
+        height: 0.22rem;
+        line-height: 0.22rem; }
+    /* line 225, index.scss */
+    .Use_mai .register_div .Use_mai_cher .Use_mai_line {
+      border-top: 1px solid #e0e0e0; }
+    /* line 228, index.scss */
+    .Use_mai .register_div .Use_mai_cher .Use_mai_code {
+      width: 100%;
+      height: 0.45rem;
+      line-height: 0.45rem;
+      position: relative; }
+      /* line 233, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_code label {
+        font-size: 0.14rem;
+        color: #737373;
+        font-weight: bold;
+        float: left; }
+      /* line 239, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_code .Use_code_pwd {
+        display: inline-block;
+        margin: 0.11rem 0.08rem;
+        border: none;
+        outline: none;
+        font-size: 0.14rem;
+        color: #737373;
+        background: none;
+        float: left;
+        height: 0.22rem;
+        line-height: 0.22rem; }
+      /* line 251, index.scss */
+      .Use_mai .register_div .Use_mai_cher .Use_mai_code .Use_code_btn {
+        display: inline-block;
+        width: 1rem;
+        height: 0.25rem;
+        border: none;
+        background: none;
+        position: absolute;
+        right: 0.04rem;
+        top: 0.1rem;
+        outline: none;
+        color: #8c8c8c;
+        border: 1px solid #8c8c8c;
+        border-radius: 15px;
+        text-align: center;
+        line-height: 0.25rem;
+        font-size: 0.12rem;
+        cursor: pointer; }
+/* line 272, index.scss */
+.Use_mai .Use_mai_xie {
+  width: 100%;
+  padding: 0.1rem 0.1rem; }
+  /* line 275, index.scss */
+  .Use_mai .Use_mai_xie .a {
+    color: #bebebe;
+    display: block;
+    width: 2.5rem;
+    height: 0.12rem;
+    font-size: 0.12rem; }
+/* line 283, index.scss */
+.Use_mai .Use_mai_footer {
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; }
+  /* line 288, index.scss */
+  .Use_mai .Use_mai_footer button {
+    display: block;
+    width: 95%;
+    background: #d9d9d9;
+    color: #979797;
+    outline: none;
+    line-height: 0.4rem;
+    border: none;
+    border-radius: 0.05rem;
+    font-size: 0.15rem;
+    margin: 0.25rem auto; }
+/* line 301, index.scss */
+.Use_mai .Use_mai_free {
+  width: 100%;
+  height: 0.2rem; }
+  /* line 304, index.scss */
+  .Use_mai .Use_mai_free a {
+    color: #8c8c8c;
+    font-size: 0.14rem;
+    position: absolute;
+    right: 0.07rem; }
+
+/* line 316, index.scss */
+.register_wrap {
+  width: 100%;
+  height: 100%; }
+  /* line 319, index.scss */
+  .register_wrap .register_header {
+    width: 100%;
+    height: 0.44rem;
+    background: #5b248a;
+    position: relative; }
+    /* line 324, index.scss */
+    .register_wrap .register_header .register_header_l {
+      position: absolute;
+      z-index: 6;
+      left: 0.04rem;
+      color: #fff;
+      line-height: 0.44rem;
+      height: 0.44rem; }
+      /* line 331, index.scss */
+      .register_wrap .register_header .register_header_l i {
+        font-size: .22rem; }
+    /* line 336, index.scss */
+    .register_wrap .register_header .register_header_tlt {
+      font-size: 0.18rem;
+      color: #fff;
+      text-align: center;
+      line-height: 0.44rem; }
+    /* line 342, index.scss */
+    .register_wrap .register_header .register_header_r {
+      position: absolute;
+      right: 0.08rem;
+      top: 0.16rem;
+      width: 0.30rem;
+      height: 0.13rem;
+      color: #ffffff;
+      font-size: 0.14rem; }
+
+/* line 354, index.scss */
+.agreement_wrap {
+  width: 100%;
+  height: 100%; }
+  /* line 357, index.scss */
+  .agreement_wrap .agreement_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0.44rem; }
+    /* line 361, index.scss */
+    .agreement_wrap .agreement_content .agreement_main {
+      padding-left: 0.15rem;
+      padding-right: 0.15rem; }
+      /* line 364, index.scss */
+      .agreement_wrap .agreement_content .agreement_main h3 {
+        font-size: 0.14rem;
+        color: #333333;
+        padding-top: 0.15rem;
+        padding-bottom: 0.05rem;
+        font-weight: 600; }
+      /* line 371, index.scss */
+      .agreement_wrap .agreement_content .agreement_main p {
+        font-size: 0.12rem;
+        color: #666666;
+        line-height: 0.2rem;
+        display: block;
+        -webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px; }
+
+/* line 385, index.scss */
+
+
+/*# sourceMappingURL=index.css.map */

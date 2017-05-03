@@ -1,0 +1,149 @@
+.hstrip_wrap {
+  background: #fff;
+  width: 100%;
+  height: 100%; }
+  /* line 389, index.scss */
+  .hstrip_wrap .hstript_banner {
+    width: 100%;
+    height: 2.4rem; }
+    /* line 392, index.scss */
+    .hstrip_wrap .hstript_banner .hstript_conta {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      /* overflow: hidden;
+       z-index: 1;*/ }
+      /* line 398, index.scss */
+      .hstrip_wrap .hstript_banner .hstript_conta .swiper-wrapper {
+        width: 100%;
+        height: 100%; }
+        /* line 401, index.scss */
+        .hstrip_wrap .hstript_banner .hstript_conta .swiper-wrapper .swiper-slide {
+          flex-shrink: 0; }
+          /* line 403, index.scss */
+          .hstrip_wrap .hstript_banner .hstript_conta .swiper-wrapper .swiper-slide .conta_box {
+            width: 100%;
+            height: 100%;
+            position: relative; }
+            /* line 407, index.scss */
+            .hstrip_wrap .hstript_banner .hstript_conta .swiper-wrapper .swiper-slide .conta_box img {
+              width: 100%;
+              height: 100%; }
+            /* line 411, index.scss */
+            .hstrip_wrap .hstript_banner .hstript_conta .swiper-wrapper .swiper-slide .conta_box .a {
+              position: relative;
+              font-size: 0.14rem;
+              width: 100%; }
+              /* line 415, index.scss */
+              .hstrip_wrap .hstript_banner .hstript_conta .swiper-wrapper .swiper-slide .conta_box a img {
+                width: 100%;
+                height: 100%;
+                vertical-align: bottom; }
+            /* line 422, index.scss */
+            .hstrip_wrap .hstript_banner .hstript_conta .swiper-wrapper .swiper-slide .conta_box .banner_title {
+              position: absolute;
+              width: 70%;
+              padding-right: 30%;
+              height: 0.35rem;
+              background: #0b0a0c;
+              color: #ffffff;
+              font-size: 0.14rem;
+              line-height: 0.35rem;
+              text-align: left;
+              text-indent: 0.13rem;
+              bottom: 0;
+              left: 0;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+      /* line 443, index.scss */
+      .hstrip_wrap .hstript_banner .hstript_conta .swiper_bullets {
+        left: inherit;
+        height: 0.35rem;
+        line-height: .35rem;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        z-index: 20; }
+        /* line 453, index.scss */
+        .hstrip_wrap .hstript_banner .hstript_conta .swiper_bullets .swiper-pagination-bullet {
+          background: #fff;
+          border: 1px solid #fff;
+          background-color: #fff;
+          border-radius: 100%;
+          width: 0.1rem;
+          height: 0.1rem; }
+        /* line 461, index.scss */
+        .hstrip_wrap .hstript_banner .hstript_conta .swiper_bullets .swiper-pagination-bullet-active {
+          background: #ff8f0d; }
+        /* line 464, index.scss */
+        .hstrip_wrap .hstript_banner .hstript_conta .swiper_bullets span {
+          color: #fff; }
+  /* line 474, index.scss */
+  .hstrip_wrap .hstript_tab .hstript_nav {
+    width: 100%;
+    height: 0.4rem;
+    border-bottom: 0.01rem solid #ccc;
+    display: flex;
+    padding: 0 0.265rem;
+    box-sizing: border-box; }
+    /* line 481, index.scss */
+    .hstrip_wrap .hstript_tab .hstript_nav div {
+      font-size: 0.13rem;
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0.185rem; }
+    /* line 489, index.scss */
+    .hstrip_wrap .hstript_tab .hstript_nav .active {
+      color: #ff8f0d;
+      border-bottom: 0.02rem solid #ff8f0d;
+      box-sizing: border-box; }
+    /* line 494, index.scss */
+    .hstrip_wrap .hstript_tab .hstript_nav .nav_active {
+      color: #ff8f0d;
+      border-bottom: 0.02rem solid #ff8f0d;
+      box-sizing: border-box; }
+  /* line 502, index.scss */
+  .hstrip_wrap .hstript_content .hstript_gengduo {
+    width: 100%;
+    height: 0.25rem;
+    border-bottom: 0.01rem solid #ccc;
+    display: flex;
+    padding-right: 0.07rem;
+    justify-content: flex-end;
+    align-items: center; }
+    /* line 512, index.scss */
+    .hstrip_wrap .hstript_content .hstript_gengduo .gengduo_a {
+      font-size: 0.12rem;
+      color: #c0c0c0; }
+  .hstrip_wrap .hstript_content .hstrip_tiao{
+    width: 100%;
+    height: 4.1rem;
+    overflow: hidden;
+    
+  }
+     .hstrip_tiao .hstrip_most{
+        width: 300%;
+        height: 100%
+        
+
+     }
+     .hstrip_most .hstrip_tabcon{
+        width: 33.3%;
+        height: 100%
+     }
+     .hstrip_list{
+        height: 0.82rem;
+        width: 100%;
+        padding: 0.05rem 0.175rem 0.05rem 0.175rem;
+        box-sizing: border-box;
+        border-bottom: 0.01rem solid #ccc;
+     }
+
+
+
+
+     
+     

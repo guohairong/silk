@@ -1,0 +1,181 @@
+
+
+input {
+  outline: none;
+  border: none; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  background: #e6e6e6; }
+body{
+  font-size:0.18rem
+}
+#hello{
+  width: 100%;
+  height: 100%;
+  font-size:0.14rem; }
+.hello-header {
+  width: 100%;
+  height: 0.44rem;
+  display: flex;
+  line-height: 0.44rem; }
+  .hello-header a {
+    flex: 1; }
+    .hello-header .txt{
+      border: 1px solid #fff;
+      background: #fff;
+    }
+    .hello-header a span{
+      display: inline-block;
+      width: .5rem;
+    }
+    .hello-header a img {
+      width: 100%;
+      padding: 0.12rem; }
+    .hello-header a input {
+      width: 100%;
+      height: 0.25rem;
+      border-radius: 0.04rem;
+      margin-left: 0.15rem;
+      display: inline-block; }
+    .hello-header a:nth-child(2) {
+      flex: 4;
+      padding-left: 0.1rem; }
+    .hello-header a:nth-child(3) {
+      text-align: right;
+      width: 23px;
+      height: 23px;
+      padding-right: 0.15rem;
+      font-size: 0.18rem; }
+
+.swiper-container {
+  width: 100%; }
+  .swiper-container img {
+    width: 100%; }
+
+.index-menu {
+  width: 100%;
+  display: -webkit-box;
+  background: #fff;
+  margin-bottom: .13rem; }
+  .index-menu .menu-dl {
+    -webkit-box-flex: 1;
+    width: 100%;
+    padding-top: .14rem;
+    text-align: center; }
+    .index-menu .menu-dl dt {
+      width: 35px;
+      margin: 0 auto; }
+      .index-menu .menu-dl dt img {
+        width: 100%; }
+    .index-menu .menu-dl dd {
+      padding: .12rem 0; }
+
+.index-classify {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #eee;
+  margin-bottom: .13rem; }
+  .index-classify .classify-title {
+    width: 100%;
+    height: .45rem;
+    line-height: .45rem;
+    text-align: center;
+    font-size: .17rem;
+    color: #6D00DC;
+    background: #fff; }
+    .index-classify .classify-title img {
+      width: 4%;
+      padding: 0 .1rem; }
+  .index-classify .classify-info {
+    width: 100%;
+    border-top: 1px solid #eee;
+    overflow: hidden; }
+    .index-classify .classify-info .classify-info-dl {
+      width: 24.6%;
+      background: #fff;
+      border-right: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      text-align: center;
+      float: left; }
+      .index-classify .classify-info .classify-info-dl dd {
+        padding: .1rem 0; }
+      .index-classify .classify-info .classify-info-dl dt {
+        width: .55rem;
+        margin: 0 auto;
+        padding-bottom: .05rem; }
+        .index-classify .classify-info .classify-info-dl dt img {
+          width: 100%; }
+
+.index-bao {
+  width: 100%;
+  display: -webkit-box;
+  height: .42rem;
+  background: #fff;
+  font-size: .16rem;
+  padding: 0 2%;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-bottom: .13rem;
+  box-sizing: border-box; }
+  .index-bao .index-bao-left {
+    width: .82rem;
+    padding-right: .1rem; }
+    .index-bao .index-bao-left img {
+      width: 100%;
+      padding-top: .1rem; }
+  .index-bao .index-bao-right {
+    height: 0.40rem;
+    overflow: hidden; }
+    .index-bao .index-bao-right .qqq {
+      width: 100%;
+      line-height: 0.40rem; }
+      .index-bao .index-bao-right .qqq .swiper-wrapper {
+        line-height: 0.40rem;
+        height: 1,60rem; }
+        .index-bao .index-bao-right .qqq .swiper-wrapper .swiper-slide {
+          line-height: 0.40rem;
+          height: 0.40rem; }
+
+.index-shangpin {
+  width: 100%;
+  background: #F7F7F7; }
+  .index-shangpin .index-goods-list {
+    width: 100%;
+    overflow: hidden;
+    margin-top: .13rem; }
+    .index-shangpin .index-goods-list .index-goods-list-dl {
+      float: left;
+      width: 45%;
+      margin-left: 3.5%; }
+      .index-shangpin .index-goods-list .index-goods-list-dl dt {
+        width: 100%; }
+        .index-shangpin .index-goods-list .index-goods-list-dl dt img {
+          width: 100%; }
+      .index-shangpin .index-goods-list .index-goods-list-dl dd {
+        padding-bottom: .1rem; }
+        .index-shangpin .index-goods-list .index-goods-list-dl dd .index-shangpin-info {
+          height: 0.28rem;
+          line-height: .16rem;
+          padding-bottom: .05rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          font-size: .12rem;
+          padding-left: 0.04rem}
+        .index-shangpin .index-goods-list .index-goods-list-dl dd .index-shangpin-price {
+          color: #FF0000;
+          font-size: .16rem;
+          padding-top: 0.05rem;
+          padding-left: 0.04rem }
+
+.index-footer {
+  width: 100%;
+  line-height: .24rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding: .1rem; }
